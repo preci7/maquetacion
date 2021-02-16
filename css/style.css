@@ -1,0 +1,51 @@
+.colorNav{
+    background-color: #105e73;
+    color: #ffffff;
+}
+
+.colorTextNav{
+    color: #ffffff !important;
+}
+
+.titleBook{
+    margin-top: 5% !important;
+    color: #707070;
+}
+
+.list{
+    margin-left: 63%;
+    color: #ffffff;
+}
+
+.colorText{
+    color: #105e73 !important;
+    font-weight: bold;
+}
+
+.fa{
+    color: #ffffff;
+}
+
+.resumen{
+    font-size: small;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+
+.btn-sm{
+    float: right;
+    background-color: #105e73 !important;
+}
+
+.foto{
+    margin-right: 0 !important;
+}
+
+.resena{
+    margin-left: 0 !important;
+}
+
+.cantidad{
+    margin-top: 2% !important;
+}

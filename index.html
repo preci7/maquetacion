@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E store</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mq.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <!-- Menú de navegación -->
+            <nav class="navbar navbar-expand-lg navbar-light colorNav">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-md-end" id="navbarTogglerDemo01">
+                        <h6>Esteban Bookstore</h6>
+                        <ul class="list navbar-nav me-auto mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active colorTextNav" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link colorTextNav" href="#">Iniciar Sesión</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link colorTextNav" href="#">Registrarse</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="row main">
+            <article class="container col-sm-3 foto">
+                <h2 class="titleBook">Tokio Blues</h2>
+                <figure class="imgLibro card">
+                    <img src="./imagenes/libroTokio.jpeg" class="card-img-top img-responsive" alt="Responsive image">
+                </figure>
+            </article>
+            <article class="container col-sm-6 resena">
+                <p class="resumen">
+                    Mientras su avión aterriza en un aeropuerto europeo, Tóru Watanabe, de treinta y siete años, escucha casualmente una canción de los Beatles: de pronto, la música le hace retroceder a su juventud, al turbulento Tokio de finales de los sesenta. Recuerda entonces, con melancolía y desasosiego, a la inestable y misteriosa Naoko, la novia de su mejor -y único- amigo de la adolescencia, Kizuki, y cómo el suicidio de él los distanció durante un año, hasta que se reencontraron en la universidad. Iniciaron allí una relación íntima, truncada, sin embargo, por la frágil salud mental de Naoko, a quien hubo que internar en un centro de reposo.
+
+                    Al poco, Watanabe se enamoró de Midori, una joven activa y resuelta. Indeciso, acosado por los temores, Watanabe solamente experimentaba el deslumbramiento y el desengaño allá donde todo debía cobrar sentido: el sexo, el amor y la muerte. La insostenible situación le llevó entonces a intentar alcanzar el delicado equilibrio entre sus esperanzas y la necesidad de encontrar su lugar en el mundo.
+                </p>
+                <label class="colorText">Valor Unitario $ 49.000,00</label>
+                <div class="row cantidad">
+                    <div class="col-sm-2" style="width: auto !important;">
+                        <label class="cantidad">Cantidad</label>
+                    </div>
+                    <div class="col-sm-3" style="width: auto !important;">
+                        <input class="form-control" type="number" value="1">
+                    </div>
+                </div>
+                <hr>
+                <div class="row total">
+                    <div class="col-sm-6" style="width: auto !important;">
+                        <label class="colorText">Total $ 45.000,00</label>
+                    </div>
+                    <div class="col-sm-6" style="width: auto !important;">
+                        <button type="button" class="float-right btn-sm">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"> Añadir al carrito</i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
